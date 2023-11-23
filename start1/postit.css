@@ -1,0 +1,63 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    line-height: 1.5;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* MAIN */
+#lavagna {
+    margin: 1rem;
+    background-color: #666666;
+    padding: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#lavagna div {
+    text-align: center;
+    margin: 1rem;
+    padding: 4rem 2rem;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.giallo {
+    background: rgb(251,251,201);
+    background: linear-gradient(180deg, rgba(251,251,201,1) 71%, rgba(181,181,155,1) 100%);
+}
+
+.verde {
+    background: rgb(172,255,175);
+    background: linear-gradient(180deg, rgba(172,255,175,1) 71%, rgba(158,182,160,1) 100%);
+}
+
+.viola {
+    background: rgb(200,201,248);
+    background: linear-gradient(180deg, rgba(200,201,248,1) 71%, rgba(151,152,172,1) 100%);
+}
+
+
+
+/* COLORI */
+
+/*
+    giallo = from: #fbfbc9 to: #b5b59b
+
+    verde = from: #ccfecd to: #9eb6a0
+
+    viola = from: #c8c9f8 to: #9798ac
+
+    lavagna = #666666
+*/
