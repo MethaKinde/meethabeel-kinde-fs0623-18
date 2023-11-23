@@ -8,3 +8,33 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    line-height: 1.5;
+}
+
+span {
+    color: #7997aa;
+}
+
+/* MAIN */
+#testoAlternato {
+    margin: 6rem 4rem;
+    padding: 3rem 1.5rem;
+    border: 3px solid #565555;
+    position: relative;
+}
+
+.parole {
+    position: absolute;
+    left: 410px;
+    border: solid;
+    height: 20%;
+    overflow: hidden;
+}
+
+.parole i {
+    display: block;
+}
