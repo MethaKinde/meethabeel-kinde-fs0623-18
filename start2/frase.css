@@ -30,11 +30,21 @@ span {
 .parole {
     position: absolute;
     left: 410px;
-    border: solid;
+    /* border: solid; */
     height: 20%;
     overflow: hidden;
 }
 
 .parole i {
     display: block;
+    animation-name: fade;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade {
+    from {transform: translateY(0);}
+    to {transform: translateY(-144px);}
 }
